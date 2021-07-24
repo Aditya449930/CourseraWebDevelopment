@@ -1,0 +1,113 @@
+
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			background-color:#82E0AA ;
+			margin: 0px;
+			font-family: 'Uchen', serif;
+		}
+		h1{
+			text-align: center;
+		}
+		#chickencontent{
+			background-color: #ECF0F1;
+			width: 30%;
+			border: 1px black solid;
+			margin-bottom: 5px;
+			margin-right: 2%;
+			margin-left: 3%;
+			/*float: right;*/
+		}
+		#muttoncontent{
+			background-color: #ECF0F1;
+			width: 30%;
+			border: 1px black solid;
+			margin-bottom: 5px;
+			margin-right: 2%;
+			/*float: right;*/
+		}
+		#fishcontent{
+			background-color: #ECF0F1;
+			width: 30%;
+			border: 1px black solid;
+			margin-bottom: 5px;
+			margin-right: 3%;
+			/*float: right;*/
+		}
+		#Chicken{
+			background-color: #F9E79F;
+			width: 100px;
+			text-align: center;
+			/*border: 2px black solid;*/
+			border-left: 1px black solid;
+			border-bottom: 1px black solid;
+			margin: 0px;
+			float: right;
+		}
+		#Mutton{
+			background-color: #CD6155;
+			width: 100px;
+			text-align: center;
+			/*border: 2px black solid;*/
+			border-left: 1px black solid;
+			border-bottom: 1px black solid;
+
+			margin: 0px;
+			float: right;
+		}
+		#Fish{
+			background-color: #DC7633;
+			width: 100px;
+			text-align: center;
+			/*border: 2px black solid;*/
+			border-left: 1px black solid;
+			border-bottom: 1px black solid;
+
+			margin: 0px;
+			float: right;
+		}
+		p{
+			clear: both;
+			margin: 0px;
+			padding: 5px 5px 0px 5px;
+		}
+		div{
+			float: left;
+			/*background-color: lightgreen;*/
+		}
+
+		@media(min-width: 768px) and (max-width:991px ){
+			#chickencontent{
+				width: 45%;
+			}
+			#muttoncontent{
+				width: 45%;
+			}
+			#fishcontent{
+				width: 92%;
+				margin-left: 3%;
+				margin-top:2%;
+			}
+
+		}
+
+		@media(max-width:767px ){
+			#chickencontent{
+				width: 90%;
+				margin-left: 5%;
+				margin-right: 5%;
+				margin-bottom: 5%;
+			}
+			#muttoncontent{
+				width: 90%;
+				margin-left: 5%;
+				margin-right: 5%;
+				margin-bottom: 5%;
+			}
+			#fishcontent{
+				width: 90%;
+				margin-left: 5%;
+				margin-right: 5%;
+			}
+		}
