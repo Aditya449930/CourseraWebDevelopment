@@ -1,0 +1,111 @@
+body{
+	background-color: #61122f;
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+	color: #fff;
+}
+
+/*Navbar*/
+#header-nav-container {
+	margin-left: 0px;
+/*	margin-bottom: 0px;
+	margin-top: 0px;*/
+}
+
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+	/*height: 60px;*/
+}
+/*EndNavbar*/
+
+
+
+/*BrandName*/
+#navbar-brand-h1 {
+	margin-top: 10px;
+}
+.navbar-brand {
+	padding-top: 0px;
+}
+
+.navbar-brand {
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+/*EndBrandName*/
+
+
+/*NavigationBar*/
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a{
+	color: red;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: green;
+}
+#nav-list a  {
+	font-size: 1.5em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+/*.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}*/
+/*EndNavigationBar*/
+
+
+/*MainContent*/
+#main-content h2 {
+	text-align: center;
+}
+#ChickenContent {
+	background-color: slategray;
+	padding: 10px;
+	padding-top: 0px;
+	padding-bottom: 1px;
+	margin: 20px;
+}
+#ChickenContent h3 {
+	text-align: center;
+}
+/*EndMainContent*/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px){
+/*	#ChickenContent {
+		margin: 50px;
+	}*/
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px){
+
+}
