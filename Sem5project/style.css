@@ -1,0 +1,190 @@
+body{
+  background-color: lightgrey;
+  font-family: 'Hina Mincho', serif;
+}
+
+/***Navbar ***/
+.navbar-brand h1{
+  font-size: 3.5vw;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+}
+.navbar-brand p{
+  font-style: italic;
+  font-size: .7em;
+}
+.navbar-brand a{
+  text-decoration: none;
+  color: white;
+}
+.navbar-brand a:hover{
+  text-decoration: underline;
+}
+.collapse:not(.show) {
+    display: contents;
+}
+#nav-list a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+/*  background-color: lightgrey;*/
+  padding-bottom: 10px;
+  border-radius: 10px;
+  text-shadow: 1px 1px 1px #222;
+}
+#nav-list a, span{
+  color: #ffffff;
+  font-size: large;
+}
+#nav-list a:hover{
+  background-color:green ;
+}
+/*** End of Navbar ***/
+
+
+
+/*** Main Content ***/
+.jumbotron img{
+  padding: 0px;
+  width: 54%;
+  height: 650px;
+  box-shadow: 0 0 30px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+#collagePicture{
+  margin-top: 30px;
+}
+#main-content{
+  padding: 0px;
+}
+#introduction{
+  width: 44%;
+  position: relative;
+  float: right;
+  margin-top: 30px;
+  margin-left: 2%;
+/*  background-color: yellow;*/
+}
+#introduction h2{
+  text-align: center;
+  font-family:"Luckiest Guy", cursive;
+}
+#introduction p{
+  font-size: 1.3em;
+  margin-bottom: 0;
+}
+#drawingCard{
+  float: left;
+  height: 470px;
+  margin-top: 30px;
+  border-radius: 10px;
+  margin-left: 12%;
+}
+#drawingCard img{
+  width: 100%;
+  height: 300px;
+}
+#paintingCard{
+  float: right;
+  height: 470px;
+  margin-top: 30px;
+  border-radius: 10px;
+  margin-right: 12%;
+}
+#paintingCard img{
+  width: 100%;
+  height: 300px;
+}
+#services h2{
+  font-family:"Luckiest Guy", cursive;
+  text-align: center;
+  margin-top: 50px;
+}
+/***End of Main content***/
+
+
+
+
+/****** Large devives only *******/
+@media (min-width: 1200px){
+  /***Main content***/
+  .jumbotron img{
+    height: 550px;
+  }
+  #introduction p{
+    font-size: 1.63em;
+  }
+  /***End of Main content***/
+}
+
+
+
+/****** Medium devices only *******/
+@media (min-width: 992px) and (max-width: 1199px){
+  /***Main content***/
+  .jumbotron img{
+    height: 450px;
+  }
+  #introduction p{
+    font-size: 1.36em;
+  }
+  /***End of main content***/
+}
+
+
+
+/****** small devices only *******/
+@media (min-width: 768px) and (max-width: 991px){
+  .jumbotron img{
+    /***Main content***/
+    height: 450px;
+  }
+  #introduction p{
+    font-size: 1.2em;
+  }
+  #drawingCard{
+    margin-left: 0;
+  }
+  #paintingCard{
+    margin-right: 0;
+  }
+  /***End of main content***/
+}
+
+
+
+/****** Extra small devices only ******/
+@media (max-width: 767px){
+  /***navbar ***/
+  .navbar-brand h1{
+    font-size: 4.5vw;
+  }
+  #nav-list a{
+    font-size: large;
+  }
+  /***end of navbar ***/
+
+  /***main content***/
+  .jumbotron img{
+    width: 100%;
+    height: 450px;
+  }
+  #introduction{
+    width: 100%;
+    margin-top: 30px;
+  }
+  #introduction p{
+    font-size: 1em;;
+    margin-bottom: 20px;
+  }
+  #drawingCard{
+    float: none;
+    margin-left: 23%;
+  }
+  #paintingCard{
+    float: none;
+    margin-left: 23%;
+  }
+  /***  end of Main content ***/
+}
