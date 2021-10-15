@@ -11,14 +11,13 @@
 	<link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap"
-      rel="stylesheet"
-    />
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script type="text/javascript" src="script.js"></script>
-	<link rel="stylesheet" type="text/css" href="style.css">
+<!-- 	<link rel="stylesheet" type="text/css" href="style.css"> -->
+	<link rel="stylesheet" type="text/css" href="contact.css">
 	<title>TAC</title>
 </head>
 
@@ -35,9 +34,10 @@
 				<div class="collapse navbar-collapse">
 					<ul id="nav-list" class="nav navbar-nav navbar-right">
 						<li class="d-none d-lg-block">
-							<a href="contact.html">
+							<a href="index.html">
 								<!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill-rule="evenodd" d="M1.75 3A1.75 1.75 0 000 4.75v14c0 .966.784 1.75 1.75 1.75h20.5A1.75 1.75 0 0024 18.75v-14A1.75 1.75 0 0022.25 3H1.75zM1.5 4.75a.25.25 0 01.25-.25h20.5a.25.25 0 01.25.25v.852l-10.36 7a.25.25 0 01-.28 0l-10.36-7V4.75zm0 2.662V18.75c0 .138.112.25.25.25h20.5a.25.25 0 00.25-.25V7.412l-9.52 6.433c-.592.4-1.368.4-1.96 0L1.5 7.412z"></path></svg> -->
-								<span style="color:white;">Contact</span>
+								<!-- <i class="fa fa-home" aria-hidden="true"></i> -->
+								<span style="color:white;">Home</span>
 							</a>
 						</li>
 					</ul>
@@ -48,51 +48,68 @@
 	</header>
 
 	<div id="call-btn" class="d-block d-lg-none">
-    <a class="btn" href="contact.html">
-    <!-- <i class="fa fa-phone" aria-hidden="true"></i> -->
-    <span class="glyphicon glyphicon-earphone"></span>Contact</a>
+    <a class="btn" href="index.html">
+    <span class="glyphicon glyphicon-earphone"></span>Home</a>
   </div>
 
   <div id="xs-deliver" class="text-center d-block d-sm-none">* We Deliver</div>
 
 	<div id="main-content" class="container">
-		<div class="jumbotron">
 
-			<img id ="collagePicture" src="https://i.imgur.com/USdL3lP.jpg?2" class="img-responsive" title="Sketches made by us" /></a>
+			<div class="contactdetails">
+				<h2>Contact us!</h2>
 
-			<div id="introduction">
-				<h2>Who are we?</h2>
-				<p>We are bunch of kids trying something new for are upcoming semester project.<br><br> We are really fascinated by how good website can be and hence we decide to make project in this domain <br><br>This website is an online art seller starting as a personal website and really recommended you to check the website out and dont forget to order from us<br><br>Welcome to out world everybody!</p>
+				<div class="box">
+					<div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+					<div class="text">
+						<h3>Address</h3>
+						<p>D-16, Shantivihar,<br>Mira road, Thane,<br>401107</p>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+					<div class="text">
+						<h3>Phone</h3>
+						<p>+91 9653301253</p>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+					<div class="text">
+						<h3>Email</h3>
+						<p>adityasingh449930@gmail.com<p>
+					</div>
+				</div>
 			</div>
 
-		  <h2 id="services">Our services!</h2>
+			<div class="contactform">
+				<form action="https://formspree.io/f/xyylayav" method="POST">
 
-		  <div id="drawingCard" class="card" style="width: 18rem;">
-		  	<img src="https://i.imgur.com/nGZbHOD.jpg?1" class="card-img-top" alt="...">
-		  	<div class="card-body">
-		  		<h5 class="card-title">Drawing</h5>
-		  		<p class="card-text">Here are some quick sketches that we made for our customers.</p>
-		  		<a href="#" class="btn btn-success">Buy now!</a>
-		  	</div>
-		  </div>
+					<h2> Send message!</h2>
 
-		  <div  id="paintingCard" class="card" style="width: 18rem;">
-		  	<img src="https://i.imgur.com/nGZbHOD.jpg?1" class="card-img-top" alt="...">
-		  	<div class="card-body">
-		  		<h5 class="card-title">Painting </h5>
-		  		<p class="card-text">Here are some quick sketches that we made for our customers</p>
-		  		<a href="#" class="btn btn-success">Buy now!</a>
-		  	</div>
-		  </div>
+					<div>
+						<input type="text" name="Fullname" required="required">
+						<p>Full name</p>
+					</div>
 
-			<h2 id="services">Our Clients!</h2>
+					<div>
+						<input type="text" name="Email" required="required">
+						<p>Email</p>
+					</div>
 
-			<div id="clients">
-				<img src="https://i.imgur.com/m8qB6gg.jpg" title="source: imgur.com" />
-				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."<span>&nbsp;-&nbsp;Aditya singh</span></p>
+					<div>
+						<textarea required="required" name="Message"></textarea>
+						<p>Type your message...<p>
+					</div>
+
+					<div>
+						<input type="submit" name="" value="Send">
+					</div>
+
+				</form>
 			</div>
-
-		</div>
 	</div>
 
 	<footer id="footer" class="footer mt-auto py-3 bg-dark">

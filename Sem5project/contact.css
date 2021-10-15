@@ -1,0 +1,226 @@
+body{
+  background-color: lightgrey;
+  font-family: 'Hina Mincho', serif;
+}
+
+/***Navbar ***/
+.navbar-brand h1{
+  font-family:"Luckiest Guy", cursive;
+  font-size: 3.5vw;
+  text-transform: uppercase;
+  font-weight: bold;
+/*  text-shadow: 1px 1px 1px #222;*/
+}
+.navbar-brand p{
+  font-style: italic;
+  font-size: .7em;
+}
+.navbar-brand a{
+  text-decoration: none;
+  color: white;
+}
+.navbar-brand a:hover{
+  text-decoration: underline;
+}
+.collapse:not(.show) {
+    display: contents;
+}
+#nav-list a{
+  text-decoration: none;
+  font-size: 1.5em;
+/*  background-color: lightgrey;*/
+  padding-left: 5px;
+  padding-right: 5px;
+  text-shadow: 1px 1px 1px #222;
+  background-color: #198754;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+#nav-list a, span{
+}
+#nav-list a:hover{
+  opacity:0.8;
+}
+/*** End of Navbar ***/
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 10px 20px;
+    padding: 10px;
+    border: 2px solid Black;
+    background-color: #198754;
+    color: white;
+  }
+  #call-btn a:hover{
+    opacity: 0.8;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+
+/*** Main Content ***/
+
+#main-content h2{
+  font-family:"Luckiest Guy", cursive;
+}
+.contactform h2{
+  margin-bottom: 30px;
+}
+#main-content{
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+/*  flex-direction: center;*/
+}
+.contactdetails{
+  margin-right: 70px;
+}
+.contactform{
+  float: right;
+  margin-left: 70px
+}
+
+.contactdetails .box{
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.contactdetails .icon{
+  min width: 60px;
+  height: 60px;
+  background: #fff;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+.contactdetails .text{
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  flex-direction: column;
+  font-weight: 300;
+}
+.contactdetails .text h3{
+  font-weight: 500;
+}
+
+/***End of Main content***/
+
+/*** Footer ***/
+#footer div, span{
+  color: white;
+  text-align: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+  margin-top: 10px;
+  padding: 5px 10px 10px 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
+/* Add a hover effect if you want */
+#footer a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #E1306C;
+  color: white;
+}
+/*** Footer ***/
+
+
+/****** Large devives only *******/
+@media (min-width: 1200px){
+  /***Main content***/
+
+  /***End of Main content***/
+}
+
+
+
+/****** Medium devices only *******/
+@media (min-width: 992px) and (max-width: 1199px){
+  /***Main content***/
+
+  /***End of main content***/
+}
+
+
+
+/****** small devices only *******/
+@media (min-width: 768px) and (max-width: 991px){
+    /***Main content***/
+  .container{
+    flex-direction: column;
+  }
+  .contactform{
+    margin-left: 0px;
+  }
+  .contactdetails{
+    margin-right: 0px;
+  }
+  /***End of main content***/
+}
+
+
+
+/****** Extra small devices only ******/
+@media (max-width: 767px){
+  /***navbar ***/
+  .navbar-brand h1{
+    font-size: 8vw;
+  }
+  #nav-list a{
+    font-size: large;
+  }
+  /***end of navbar ***/
+
+  /***main content***/
+  .container{
+    flex-direction: column;
+  }
+  .contactform{
+    margin-left: 0px;
+  }
+  .contactdetails{
+    margin-right: 0px;
+  }
+  .contactdetails h2{
+    text-align: center;
+  }
+  .contactform h2{
+    text-align: center;
+  }
+  /***  end of Main content ***/
+}
